@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+
 }
 
 .clr {
@@ -9,43 +10,147 @@ body {
 
 h1 {
     font-size: 50px;
+    color: rgb(73, 73, 73);
 }
-.ok1{
+
+.ok1 {
     width: 50%;
-     padding-left: 13%;
-     padding-top: 5%;
+    padding-left: 13%;
+    padding-top: 5%;
 }
-.ok1 img{
+
+.ok1 img {
     width: 80%;
 }
-.flex{
+
+.flex {
     display: flex;
     margin-bottom: 120px;
 }
-.attach-img{
+
+.attach-img {
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 20px;
     font-weight: 700;
     color: white;
 }
-.ok{
+
+.ok {
     background-image: url(images/shapes/1.png);
     background-repeat: no-repeat;
 }
-.t{
+
+.t {
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     width: 100;
 }
-.o1{
+
+.o1 {
     width: 50%;
     padding-right: 5%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
-p{
-    font-size: 30px;
+
+.tex1 {
+    font-size: 20px;
+}
+
+.tex {
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.tex3 {
+    color: black;
+    line-height: 0;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    line-height: 1.8;
+}
+
+.dish {
+    display: flex;
+}
+
+#dish1 {
+    float: left;
+    margin-left: 5%;
+}
+
+#dish2 {
+    float: left;
+
+}
+
+#dish3 {
+    float: right;
+    margin-right: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+.box1 {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    box-shadow: 0 0 25px #dfd9d9;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 120px;
+    border-radius: 30px;
+    height: 400px;
+    width: 33.33%;
+
+}
+
+.c {
+    text-align: center;
+}
+
+.foot {
+    display: flex;
+    width: 90%;
+    height: 220px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px #dfd9d9;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+    padding-top: 50px;
+}
+
+#foot1 {
+    margin-left: 100px;
+    margin-left: 180px;
+}
+
+#foot2 {
+    margin-left: 190px;
+}
+
+#foot3 {
+    margin-left: 180px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
 }
